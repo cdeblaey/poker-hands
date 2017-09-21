@@ -13,7 +13,7 @@ The file, p054_poker.txt, contains one-thousand random hands dealt to two player
 * Run `bundle install` to download the `rspec` and `guard` dependencies.
 * To run guard: `bundle exec guard`
 * To run rspec on its own: `bundle exec rspec`
-* To execute the program (from root dir): `bundle exec ruby run.rb`
+* To execute the program (from root dir): `bundle exec ruby play.rb`
 
 ---
 https://projecteuler.net/problem=54
