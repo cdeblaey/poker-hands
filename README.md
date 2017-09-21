@@ -5,7 +5,7 @@ The file, p054_poker.txt, contains one-thousand random hands dealt to two player
 How many hands does Player 1 win?
 
 ### Assumption:
-* No card is 'wild' and there are no Jokers in the deck.  Therefore Five of a Kind is not possible.
+* No card is 'wild' and there are no Jokers in the deck, therefore Five of a Kind is not possible.
 
 ### Usage:
 * Run `bundle install` to download the `rspec` and `guard` dependencies.
