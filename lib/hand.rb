@@ -58,7 +58,7 @@ class Hand
     # Strip away cards' suits
     hand = hand.gsub(/(S|H|D|C)/, '')
 
-    # Replace ace through ten cards with their numberical values
+    # Replace ace through ten cards with their numerical values
     hand = hand.gsub(/[AKQJT]/, 'A'=>'14', 'K'=>'13', 'Q'=>'12', 'J'=>'11', 'T'=>'10')
 
     # Return an array of integer values
