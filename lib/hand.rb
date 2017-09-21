@@ -73,7 +73,7 @@ class Hand
     false
   end
 
-  # determine if a hand has multiple groups (n, m) of cards of the same rank
+  # determine if a hand has multiple groups (N, M) of cards of the same rank
   def n_and_m_of_a_kind? n, m
     hand = values
     values.each do |card|
