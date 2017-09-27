@@ -7,3 +7,7 @@ group :development do
 	gem 'guard-rspec'
 	gem 'rb-readline'
 end
+
+group :test do
+	gem 'simplecov', :require => false # code test coverage reports
+end
